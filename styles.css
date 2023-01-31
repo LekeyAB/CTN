@@ -1,6 +1,7 @@
 body {
     background-color: #303841;
     margin: 0;
+    padding: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
   }
@@ -37,7 +38,7 @@ body {
   }
   
   a{
-    color: #2E4750;
+    color: #f7f7f7;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
@@ -47,21 +48,62 @@ body {
     color: #F6C90E;
   }
   
-  .nav{
+  .navagation{
+    background-color: black;
+    width: 100%;
+    height: 5vh;
     list-style: none;
-    font-weight: bold;
-    
+    position: fixed;
+    top: 0;
+    margin: 0 0 0 0;
+    padding: 1vh 0 0 0;
+  }
+  
+  .nav{
+    width: 40%;
+    list-style: none;
+    margin: 0 0 0 52vw;
+    display: inline-block;
+    text-align: right;
+
   }
   .nav-item{
-    
+    text-align: right;
     display: inline-block;
+    padding: 0 0 0 0;
+    position: relative;
+    bottom: 2.6vh;
+    width: 8vw;
+
+  }
+  #home-link{
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    bottom: .7vh;
+  }
+  #icon{
+    width: 45px;
+  }
+  #coin{
+    width: 30px;
   }
     
 
-  .top-container {
-    background-color: #303841;
-    position: relative;
-    padding-top: 100px;
+  #title{
+    background-image: url(collage.png);
+    background-size: 100%;
+    height: 100vh;
+  }
+  .title-text{
+    background-color: black;
+    color: #F6C90E;
+    display: inline-block;
+    margin-top: 35vh;
+    padding: 0 1% 0 1%;
+    border-radius: 3%;
+    
   }
   
   .middle-container {
