@@ -1,19 +1,19 @@
 body {
-    color: #40514E;
+    background-color: #303841;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
   }
   
   h1 {
-    color: #66BFBF;
+    color: #F6C90E;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
   }
   
   h2 {
-    color: #66BFBF;
+    color: #F6C90E;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
@@ -21,7 +21,7 @@ body {
   }
   
   h3 {
-    color: #11999E;
+    color: #F6C90E;
     font-family: 'Montserrat', sans-serif;
   }
   
@@ -30,25 +30,36 @@ body {
   }
   
   hr {
-    border: dotted #EAF6F6 6px;
+    border: dotted #303841 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
   }
   
   a{
-    color: #11999E;
+    color: #2E4750;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
   }
   
   a:hover {
-    color: #EAF6F6;
+    color: #F6C90E;
   }
   
+  .nav{
+    list-style: none;
+    font-weight: bold;
+    
+  }
+  .nav-item{
+    
+    display: inline-block;
+  }
+    
+
   .top-container {
-    background-color: #E4F9F5;
+    background-color: #303841;
     position: relative;
     padding-top: 100px;
   }
@@ -58,58 +69,16 @@ body {
   }
   
   .bottom-container {
-    background-color: #66BFBF;
+    background-color: #2E4750;
     padding: 50px 0 20px;
   }
   
-  .skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-  }
   
-  .pro {
-    text-decoration: underline;
-  }
-  
-  .intro {
-    width: 30%;
-    margin: auto;
-  }
-  
-  .contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
-  }
   
   .copyright {
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
-  }
-  
-  .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 40px;
-  }
-  
-  .bottom-cloud {
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
-  }
-  
-  .code-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-  }
-  
-  .chilli-img {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
   }
   
   .btn {
