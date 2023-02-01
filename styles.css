@@ -89,6 +89,7 @@ body {
   }
   #coin{
     width: 30px;
+    padding: 10vh 0 10vh 0;
   }
     
 
@@ -120,19 +121,29 @@ body {
     text-align: center;
     display: inline-block;
   }
+  #featured{
+    padding-top: 10vh;
+  }
   .film{
-    width: 30vw;
+    width: 60vw;
   }
   
-  footer{
+  #footer{
     background-color: #Ffcc33;
-    padding: 50px 0 20px;
+    color: #121212;
+    height: 80vh;
+    padding: 10vh 0 5vh 0;
   }
-  
+  #contact-header{
+    color: #121212;
+  }
+  .footer-link{
+    color: #121212;
+  }
   
   
   .copyright {
-    color: #EAF6F6;
+    color: #121212;
     font-size: 0.75rem;
     padding: 20px 0;
   }
@@ -148,7 +159,7 @@ body {
     -moz-border-radius: 8;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    color: #121212;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
