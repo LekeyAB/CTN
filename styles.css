@@ -1,5 +1,6 @@
 body {
-    background-color: #303841;
+    background-color: black;
+    color: #f7f7f7;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -7,15 +8,15 @@ body {
   }
   
   h1 {
-    color: #F6C90E;
+    color: #Ffcc33;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Balboa Extra Black', sans-serif;
   }
   
   h2 {
     color: #F6C90E;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Balboa Extra Bold', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
@@ -23,7 +24,7 @@ body {
   
   h3 {
     color: #F6C90E;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Balboa light', sans-serif;
   }
   
   p {
@@ -105,13 +106,26 @@ body {
     border-radius: 3%;
     
   }
-  
-  .middle-container {
-    margin: 100px 0;
+  .container{
+    height: 80vh;
+    background-color: black;
+    padding-top: 35vh;
+    
+  }
+  .section{ 
+  }
+  .dbl-section{
+    background-color: #121212;
+    width: 40vw;
+    text-align: center;
+    display: inline-block;
+  }
+  .film{
+    width: 30vw;
   }
   
-  .bottom-container {
-    background-color: #2E4750;
+  footer{
+    background-color: #Ffcc33;
     padding: 50px 0 20px;
   }
   
