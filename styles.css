@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: #f7f7f7;
+    color: black;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -19,7 +19,10 @@ body {
     font-family: 'Balboa Extra Bold', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    padding-bottom: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 40vw;
+    height: 8vh;
   }
   
   h3 {
@@ -89,7 +92,7 @@ body {
   }
   #coin{
     width: 30px;
-    padding: 10vh 0 10vh 0;
+    padding: 15vh 0 0 0;
   }
     
 
@@ -110,22 +113,51 @@ body {
   .container{
     height: 80vh;
     background-color: black;
-    padding-top: 35vh;
+    padding-top: 25vh;
     
   }
-  .section{ 
+  .section{
+    width: 60vw;
+    height: 50vh;
+    background-image: url(imgs/collage.png);
+    margin-left: 20vw;
+  }
+  .section-heading{
+    background-color: #121212;
+    margin-left: 10vw;
+    height: 4vh;
   }
   .dbl-section{
-    background-color: #121212;
+    background-color: black;
     width: 40vw;
     text-align: center;
     display: inline-block;
   }
-  #featured{
+  #featured-section{
     padding-top: 10vh;
+    background-image: none;
+  }
+  #featured-header{
+    background-image: none;
+  }
+  #film-container{
+    width: 64vw;
+    height: 64vh;
+    background-image: url(imgs/collage.png);
+    border: #ffcc33;
+    border-style: solid;
+    border-width: .5vw;
+    
+  }
+  video{
+    border: black;
+    border-style: solid;
+    border-width: .5vw;
   }
   .film{
     width: 60vw;
+    margin-top: 1.5vh;
+    
   }
   
   #footer{
