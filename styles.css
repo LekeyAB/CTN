@@ -1,8 +1,6 @@
 body {
     background-color: black;
     color: black;
-    margin: 0;
-    padding: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
   }
@@ -19,10 +17,7 @@ body {
     font-family: 'Balboa Extra Bold', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    padding: 10px;
-    margin: 10px;
-    width: 40vw;
-    height: 8vh;
+    
   }
   
   h3 {
@@ -34,65 +29,42 @@ body {
     line-height: 2;
   }
   
-  hr {
-    border: dotted #303841 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-  }
   
   a{
     color: #f7f7f7;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
     text-decoration: none;
+    list-style: none;
   }
   
   a:hover {
     color: #F6C90E;
   }
   
-  .navagation{
+  .navbar{
     background-color: black;
-    width: 100%;
-    height: 5vh;
-    list-style: none;
-    position: fixed;
-    top: 0;
-    margin: 0 0 0 0;
-    padding: 1vh 0 0 0;
+    height: 6vh;
+    margin: 0%;
   }
   
-  .nav{
-    width: 40%;
+  .navbar-nav{
     list-style: none;
-    margin: 0 0 0 52vw;
-    display: inline-block;
-    text-align: right;
+    text-decoration: none;
+    margin-left: 56vw;
 
   }
-  .nav-item{
-    text-align: right;
-    display: inline-block;
-    padding: 0 0 0 0;
-    position: relative;
-    bottom: 2.6vh;
-    width: 8vw;
-
+  .nav{
+    background-color: black;
   }
-  #home-link{
-    margin: 0;
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    bottom: .7vh;
+  .nav-link{
+    margin: 0 .6vw;
+
   }
   #icon{
     width: 45px;
   }
-  #coin{
+  .coin{
     width: 30px;
-    padding: 15vh 0 0 0;
   }
     
 
@@ -109,50 +81,65 @@ body {
     padding: 0 1% 0 1%;
     border-radius: 3%;
     
-  }
-  .container{
-    height: 80vh;
-    background-color: black;
-    padding-top: 25vh;
-    
-  }
+  } 
   .section{
     width: 60vw;
-    height: 50vh;
+    height: 60vh;
     background-image: url(imgs/collage.png);
-    margin-left: 20vw;
-  }
-  .section-heading{
-    background-color: #121212;
-    margin-left: 10vw;
-    height: 4vh;
-  }
-  .dbl-section{
-    background-color: black;
-    width: 40vw;
+    padding: 2vh .5vw 0 .5vw;
     text-align: center;
-    display: inline-block;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+  }
+  .sub-title{
+    margin: 5%;
+  }
+  .main-content{
+    background-color: black;
+    color: #f7f7f7;
+    margin: 3%;
+    height: 30vh;
+    border-radius: 20%;
+  }
+  .section-header{
+    background-color: black;
+    height: 8vh;
+    margin: 5%;
+    padding: 1%;
+
+  }
+  .uniqueValue-box{
+    background-color: black;
+    color: #f7f7f7;
+    width: 20vw;
+    height: 30vh;
+    text-align: center;
   }
   #featured-section{
-    padding-top: 10vh;
-    background-image: none;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
   }
   #featured-header{
     background-image: none;
   }
   #film-container{
-    width: 64vw;
-    height: 64vh;
+    width: 70vw;
+    height: 70vh;
     background-image: url(imgs/collage.png);
-    border: #ffcc33;
+    border: white;
     border-style: solid;
     border-width: .5vw;
     
   }
+  .film-collage{
+    background-color: aliceblue;
+    height: 80vh;
+    width: 10vw;
+  }
   video{
     border: black;
     border-style: solid;
-    border-width: .5vw;
+    border-width: 1.2vw;
   }
   .film{
     width: 60vw;
@@ -161,22 +148,31 @@ body {
   }
   
   #footer{
+    height: 94vh;
     background-color: #Ffcc33;
     color: #121212;
-    height: 80vh;
-    padding: 10vh 0 5vh 0;
+    padding: 3vh 2vw 0 0;
   }
   #contact-header{
     color: #121212;
+    background-color: none;
+    margin: 0;
   }
-  #team{
-    display: inline block;
+  .bio-section{
+    text-align: left;
   }
+  
   .bio-photo{
-    height: 10vh;
+    height: 18vh;
     border-radius: 50%;
   }
+  .bio{
+    font-size: 0.7rem;
+  }
   .footer-link{
+    color: black;
+  }
+  .footer-link:hover {
     color: #121212;
   }
   
@@ -184,7 +180,6 @@ body {
   .copyright {
     color: #121212;
     font-size: 0.75rem;
-    padding: 20px 0;
   }
   
   .btn {

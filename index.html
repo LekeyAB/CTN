@@ -4,148 +4,184 @@
 <head>
   <meta charset="utf-8">
   <title>Changing The Narrative</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+
+  <!-- Favicon-->
   <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
 <!-- Navagation -->
-  <header class="">
-    <div class="navagation">
-      <a href="#title"id="home-link"><img id="icon" src="imgs/CTN_coin_yellow.png"></a>
-      <ul class="nav">
-        <li class="nav-item"><a href="#uniqueValue">Value</a></li>
-        <li class="nav-item"><a href="#featured">Featured</a></li>
-        <li class="nav-item"><a href="#tmo">Oppurtunity</a></li>
-        <li class="nav-item"><a href="#powered">Powered</a></li>
-      </ul>
-    </div> 
-  </header>      
-
+<nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid nav">
+    <a class="navbar-brand" href="#title">
+      <img src="imgs/CTN_coin_yellow.png" alt="CTN-coin-logo" id="icon">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link"><a href="#uniqueValue">Value</a>
+        <a class="nav-link"><a href="#featured">Featured</a>
+        <a class="nav-link"><a href="#tmo">Oppurtunity</a>
+        <a class="nav-link"><a href="#powered">Powered</a>
+        <a class="nav-link"><a href="#footer">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
   
 <!-- Title -->
-  <div id="title">
+  <div class="container-fluid" id="title">
     <div class="title-text">
       <h1>Changing The Narrative</h1>
       <p> Leaders in Ethical Black Media</p>
     </div>
   </div>
 
-  <img id="coin" src="imgs/CTN_coin_yellow.png">
+  <img class="coin" id="uniqueValue" src="imgs/CTN_coin_yellow.png">
 
-<!-- Main Content-->
-  <div class="main-content">
   <!-- Unique Value -->
-    <div class="container" id="uniqueValue">
-      <div class="section">
-        <h2 class="section-heading"> Unique Value Proposition</h2>
-        <div class="dbl-section">
-          <p class="">Majority Black Benifits</p>
+  <div class="container-fluid section">
+      <h2 class="section-header"> Unique Value Proposition</h2>
+      <div class="row">
+        <div class="main-content col">
+          <h3 class="sub-title">Majority Black Benifits</h3>
         </div>
-        <div class="dbl-section">
-          <p class="">Multi Commitment</p>
+        <div class="main-content col">
+          <h3 class="sub-title">Multi Commitment</h3>
         </div>
-        
-      </div>
-    </div>
+      </div>    
+  </div>
     
 
-  <img id="coin" src="imgs/CTN_coin_yellow.png">
+  <img class="coin" id="featured" src="imgs/CTN_coin_yellow.png">
 
   <!-- Featured -->
-  <div class="container" id="featured">
-    <div class="section" id="featured-section">
-      <h2 id="featured-header">Featured</h2>
-      <div id="film-container">
-        <video class="film" controls> 
-          <source src="films/tester-video.mp4" type="video/mp4">
-        </video>
-      </div>
-      <p class="">Insert recent film</p>
-    </div>
+  <div class="container-fluid text-center" id="featured-section">
+        <h2 class=""> Featured</h2>
+        <div>
+          <h3>Name of Film</h3>
+          <video class="film" controls> 
+            <source src="films/video-test-bw.mp4" type="video/mp4">
+          </video>
+          <p class="">Insert recent film</p>
+        </div>
+        
   </div>
     
+  <img class="coin" id="tmo" src="imgs/CTN_coin_yellow.png">
 
-  <img id="coin" src="imgs/CTN_coin_yellow.png">
   <!-- Target Market and Oppurtunities-->
-  <div class="container" id="tmo">
-    <div class="section">
-      <h2>Target Market and Oppurtunites</h2>
-      <div class="dbl-section">
-        <h3>Institutions</h3>
-        <p>Working with community</p>
-      </div>
-    
-      <div class="dbl-section">
-          <h3>Corperations</h3>
+  <div class="container-fluid section">
+      <h2 class="section-header"> Target Market and Oppurtunites</h2>
+      <div class="row">
+        <div class="main-content col">
+          <h3 class="sub-title">Institutions</h3>
+          <p>Working with community</p>
+        </div>
+        <div class="main-content col">
+          <h3 class="sub-title">Corperations</h3>
           <p>Working with Business</p>
         </div>
-      </div>
-    </div>
+      </div>    
   </div>
-    
-    <hr>
-    <img id="coin" src="imgs/CTN_coin_yellow.png">
+ 
+  <img class="coin" id="powered" src="imgs/CTN_coin_yellow.png">
+
   <!-- Powered by CTN -->
-  <div class="container" id="powered">
-    <div class="section">
-      <h2>Powered by CTN</h2>
-      <div class="tpl-section">
-        <p class="">Black Sheep Productions</p>
+  <div class="container-fluid section">
+    <h2 class="section-header">Powered by CTN </h2>
+    <div class="row">
+      <div class="main-content col">
+        <h3 class="sub-title">Black Sheep Productions</h3>
       </div>
-
-      <div class="tpl-section">
-        <p class="">Education hoster</p>
+      <div class="main-content col">
+        <h3 class="sub-title">Education hoster</h3>
       </div>
-      
-
-      <div class="tpl-section">
-        <p class="">Stop The Leak</p>
+      <div class="main-content col">
+        <h3 class="sub-title">Stop The Leak</h3>
       </div>
-      
-    </div>
+    </div>    
   </div>
-    
-    <hr>
-    <img id="coin" src="imgs/CTN_coin_yellow.png">
-  </div>
+  
+  <img class="coin" src="imgs/CTN_coin_yellow.png">
+  
   <!-- Footer-->
   <footer>
-    <div class="container" id="footer">
-      <h2 id="contact-header"> Contact </h2>
+    <div class="container-fluid" id="footer">
+      <div class="row">
+        <h2 id="contact-header"> Contact </h2>
+        <div class="col-lg-9">
+          <h3> Team </h3>
+          <div class="group-member row">
+            <div class="col-lg-2">
+              <img class="bio-photo" src="imgs/leykey.png">
+            </div>
+            <div class="bio-section col-lg-10">
+              <h4 class="bio-title"> Founder </h4>
+              <p class="bio"> Terrence Taylor is an African Nova Scotian artist & entrepreneur who grew up in Las Vegas, Nevada. 
+                This unique & dualistic experience shaped a default perspective of viewing and mashing together things that may not be meant to be. 
+                And yet, magic consistently happens. Since 2017, Terrence has combined storytelling elements from hip hop, Hollywood, radio and the Internet 
+                into a style coined Innovative Narrative, selling nearly $1,000,000 in video and podcast content to corporate, grassroots and government clients across Canada.</p>
+              <p> terrence@changingthenarrative.ca</p>
+            </div> 
+          </div>
+          <div class="group-member row">
+            <div class="col-lg-2">
+              <img class="bio-photo" src="imgs/leykey.png">
+            </div>
+            <div class="bio-section col-lg-10">
+              <h4 class="bio-title"> Founder </h4>
+              <p class="bio"> Terrence Taylor is an African Nova Scotian artist & entrepreneur who grew up in Las Vegas, Nevada. 
+                This unique & dualistic experience shaped a default perspective of viewing and mashing together things that may not be meant to be. 
+                And yet, magic consistently happens. Since 2017, Terrence has combined storytelling elements from hip hop, Hollywood, radio and the Internet 
+                into a style coined Innovative Narrative, selling nearly $1,000,000 in video and podcast content to corporate, grassroots and government clients across Canada.</p>
+              <p> terrence@changingthenarrative.ca</p>
+            </div> 
+          </div>
+        </div>
 
-      <h3> Team </h3>
-      <div id="team">
-      <bio>
-        <img class="bio-photo" src="imgs/leykey.png">
-        <p> This is Terrence. Terrence Films</p>
-        <p> terrence@changingthenarrative.ca</p>
-      </bio>
-      <bio>
-        <img class="bio-photo" src="imgs/leykey.png">
-        <p> This is Leykey. Leykey Develops</p>
-        <p> leykey@changingthenarrative.ca</p>
-      </bio>
-      <bio>
-        <img class="bio-photo" src="imgs/leykey.png">
-        <p> Is it You?</p>
-        <p> yourname@changingthenarrative.ca</p>
-      </bio>
+        <div class="col-lg-3">
+          <h3> Get In Touch </h3>
+          <div class="">
+
+          </div>
+          <div>
+            <h4> Email </h4>
+            <p> info@changingthenarrative.ca</p>
+          </div>
+          <div>
+            <h4> Socials </h4>
+            <div>
+              <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
+            </div>
+            <div>
+              <a class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
+            </div>
+            <div>
+              <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            </div>
+            
+          </div>
+        </div>
       </div>
-      
-      <h3> Get In Touch</h3>
-
-      <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <img id="icon" src="imgs/CTN_patch.png">
       <p class="copyright">© 2017 Changing The Narrative.</p>
     </div>
-    
-
   </footer>
+  
+  
     
 </body>
 
