@@ -72,6 +72,7 @@ body {
     background-image: url(imgs/collage.png);
     background-size: 100%;
     height: 100vh;
+    margin-bottom: 20vh;
   }
   .title-text{
     background-color: black;
@@ -119,22 +120,22 @@ body {
     margin-top: 20vh;
     margin-bottom: 20vh;
   }
+  #featured-collage{
+    width: 60vw;
+    text-align: center;
+    background-image: url(imgs/collage.png);
+  }
   #featured-header{
-    background-image: none;
+    background-color: black;
+    
   }
   #film-container{
     width: 70vw;
     height: 70vh;
-    background-image: url(imgs/collage.png);
     border: white;
     border-style: solid;
     border-width: .5vw;
     
-  }
-  .film-collage{
-    background-color: aliceblue;
-    height: 80vh;
-    width: 10vw;
   }
   video{
     border: black;
@@ -152,6 +153,7 @@ body {
     background-color: #Ffcc33;
     color: #121212;
     padding: 3vh 2vw 0 0;
+    margin-top: 20vh;
   }
   #contact-header{
     color: #121212;
@@ -178,6 +180,7 @@ body {
   
   
   .copyright {
+    margin-top: 25vh;
     color: #121212;
     font-size: 0.75rem;
   }
