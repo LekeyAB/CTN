@@ -63,6 +63,10 @@ body {
   #icon{
     width: 45px;
   }
+  .coin-container{
+    background-image: url(imgs/collage.png);
+    height: 50px;
+  }
   .coin{
     width: 30px;
   }
@@ -84,27 +88,27 @@ body {
     
   } 
   .section{
-    width: 60vw;
-    height: 60vh;
-    background-image: url(imgs/collage.png);
+    width: 100vw;
+    height: 80vh;
     padding: 2vh .5vw 0 .5vw;
     text-align: center;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 2.5vh;
   }
   .sub-title{
     margin: 5%;
   }
   .main-content{
     background-color: black;
+
     color: #f7f7f7;
     margin: 3%;
-    height: 30vh;
-    border-radius: 20%;
+    border-radius: 50%;
   }
   .section-header{
     background-color: black;
-    height: 8vh;
+    color: #Ffcc33;
+    height: 12vh;
     margin: 5%;
     padding: 1%;
 
@@ -159,6 +163,9 @@ body {
     color: #121212;
     background-color: none;
     margin: 0;
+  }
+  .contact-header{
+    color: black;
   }
   .bio-section{
     text-align: left;
