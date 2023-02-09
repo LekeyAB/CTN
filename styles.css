@@ -151,6 +151,9 @@ body {
     margin-top: 1.5vh;
     
   }
+  .dime-pass{
+    height: 30vh;
+  }
   
   #footer{
     height: 94vh;
