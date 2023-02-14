@@ -3,6 +3,7 @@ body {
     color: black;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-weight: bolder;
   }
   
   h1 {
@@ -64,7 +65,7 @@ body {
     width: 45px;
   }
   .coin-container{
-    background-image: url(imgs/collage.png);
+    background-image: url("imgs/collage.png");
     height: 50px;
   }
   .coin{
@@ -73,20 +74,21 @@ body {
     
 
   #title{
-    background-image: url(imgs/collage.png);
+    background-image: url("imgs/collage.png");
     background-size: 100%;
     height: 100vh;
     margin-bottom: 20vh;
   }
   .title-text{
-    background-color: black;
-    color: #F6C90E;
+    color: #ffcc33;
     display: inline-block;
     margin-top: 35vh;
     padding: 0 1% 0 1%;
     border-radius: 3%;
-    
-  } 
+    text-shadow: 10px 10px 100px black;
+    font-weight: bolder; 
+  }
+  
   .section{
     width: 100vw;
     height: 80vh;
@@ -95,15 +97,9 @@ body {
     margin-top: 5vh;
     margin-bottom: 2.5vh;
   }
-  .sub-title{
-    margin: 5%;
-  }
   .main-content{
-    background-color: black;
-
-    color: #f7f7f7;
-    margin: 3%;
-    border-radius: 50%;
+    background-image: url("imgs/imgs/dime-pass-flipped-bw.png");
+    color: aliceblue;
   }
   .section-header{
     background-color: black;
@@ -112,6 +108,26 @@ body {
     margin: 5%;
     padding: 1%;
 
+  }
+  .small-ball{
+    width: 35vw;
+    position: absolute;
+    transform: translateX(-50%) translateY(-10%);
+  }
+  .sub-title{
+    position: absolute;
+    transform: translateX(25%) translateY(380%);
+    color: #ffcc33;
+    text-shadow: 1px 1px 10px black;
+    font-weight: bolder;
+  }
+  .content-text{
+    position: absolute;
+    transform: translateX(0%) translateY(200%);
+    color: white;
+    font-size: 0.9rem;
+    text-shadow: 0 0 10px black;
+    font-weight: bolder;
   }
   .uniqueValue-box{
     background-color: black;
@@ -152,7 +168,9 @@ body {
     
   }
   .dime-pass{
-    height: 30vh;
+    height: 80vh;
+    position: static;
+    margin-top: 6.8vh;
   }
   
   #footer{
@@ -160,7 +178,10 @@ body {
     background-color: #Ffcc33;
     color: #121212;
     padding: 3vh 2vw 0 0;
-    margin-top: 20vh;
+    margin-top: 0;
+  }
+  .ball{
+    background-image: url(imgs/basketball.png);
   }
   #contact-header{
     color: #121212;
