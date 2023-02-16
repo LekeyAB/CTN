@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-weight: bolder;
@@ -171,6 +171,10 @@ body {
     height: 80vh;
     position: static;
     margin-top: 6.8vh;
+  }
+  .carousel-item{
+    width: 20vh;
+    height: 20vh;
   }
   
   #footer{
