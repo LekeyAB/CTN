@@ -79,8 +79,7 @@ body {
   }
   .title-logo{
     width: 40vw;
-    border-radius: 5%;
-    border-color: #ffcc33;
+    
   }
   .title-text{
     color: #ffcc33;
@@ -90,6 +89,12 @@ body {
     border-radius: 3%;
     text-shadow: 10px 10px 100px black;
     font-weight: bolder; 
+  }
+  .img-border{
+    width: 45vw;
+    height: 50vh;
+    border-radius: 10px;
+    border-color: #ffcc33;
   }
   
   .section{
