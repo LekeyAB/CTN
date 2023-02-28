@@ -32,26 +32,27 @@ body {
   
   
   a{
-    color: #f7f7f7;
+    color: #ffcc33;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     list-style: none;
   }
   
   a:hover {
-    color: #F6C90E;
+    color: #f7f7f7;
   }
   
   .navbar{
     background-color: black;
-    height: 6vh;
     margin: 0%;
+    padding: 0;
   }
   
   .navbar-nav{
     list-style: none;
     text-decoration: none;
-    margin-left: 56vw;
+    margin-left: 77vw;
+    padding: .55vh 0;
 
   }
   .nav{
@@ -65,11 +66,10 @@ body {
     width: 45px;
   }
   .coin-container{
-    background-image: url("imgs/collage.png");
     height: 6vh;
   }
   .coin{
-    width: 30px;
+    background-image: url("imgs/collage.png");
   }
     
 
@@ -99,11 +99,18 @@ body {
   
   .section{
     width: 100vw;
-    height: 80vh;
+    height: 82vh;
     padding: 2vh .5vw 0 .5vw;
     text-align: center;
     margin-top: 5vh;
     margin-bottom: 2.5vh;
+  }
+  .assist-section{
+    width: 100vw;
+    height: 85vh;
+    padding: 2vh .5vw 0 .5vw;
+    text-align: center;
+    margin-top: 5vh;
   }
   .main-content{
     background-image: url("imgs/imgs/dime-pass-flipped-bw.png");
@@ -117,21 +124,44 @@ body {
     padding: 1%;
 
   }
-  .small-ball{
-    width: 35vw;
-    position: absolute;
-    transform: translateX(-50%) translateY(-10%);
+  .money-left{
+    width: 17vw;
+  }
+  .money-right{
+    width: 17vw;
+  }
+  .money-title-left{
+    color: #ffcc33;
+    text-shadow: 1px 1px 10px black;
+    font-weight: bolder;
+  }
+  .money-title-right{
+    color: #ffcc33;
+    text-shadow: 1px 1px 10px black;
+    font-weight: bolder;
+  }
+  .money-text-left{
+    color: white;
+    font-size: 0.9rem;
+    text-shadow: 0 0 10px black;
+    font-weight: bolder;
+    width: 10vw;
+    height: 10vh;
+  }
+  .money-text-right{
+    color: white;
+    font-size: 0.9rem;
+    text-shadow: 0 0 10px black;
+    font-weight: bolder;
+    width: 10vw;
+    height: 10vh;
   }
   .sub-title{
-    position: absolute;
-    transform: translateX(25%) translateY(380%);
     color: #ffcc33;
     text-shadow: 1px 1px 10px black;
     font-weight: bolder;
   }
   .content-text{
-    position: absolute;
-    transform: translateX(0%) translateY(200%);
     color: white;
     font-size: 0.9rem;
     text-shadow: 0 0 10px black;
@@ -145,8 +175,8 @@ body {
     text-align: center;
   }
   #featured-section{
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
   }
   #featured-collage{
     width: 60vw;
@@ -175,25 +205,22 @@ body {
     margin-top: 1.5vh;
     
   }
-  .dime-pass{
-    height: 80vh;
-    position: static;
-    margin-top: 6.8vh;
+  .assist-content{
+
   }
-  .carousel-item{
-    width: 20vh;
-    height: 20vh;
+  .assist-sub-title{
+    text-align: left;
+  }
+  .assist-content-text{
+
   }
   
-  #footer{
-    height: 94vh;
+  #contact{
+    height: 100vh;
     background-color: #Ffcc33;
     color: #121212;
-    padding: 3vh 2vw 0 0;
+    padding: 10vh 2vw 0 0;
     margin-top: 0;
-  }
-  .ball{
-    background-image: url(imgs/basketball.png);
   }
   #contact-header{
     color: #121212;
@@ -214,44 +241,22 @@ body {
   .bio{
     font-size: 0.7rem;
   }
+  .footer{
+    background-color: black;
+    height: 5vw;
+  }
+  #contact-footer{
+    background-color: #ffcc33;
+  }
   .footer-link{
     color: black;
   }
   .footer-link:hover {
     color: #121212;
   }
-  
-  
   .copyright {
-    margin-top: 25vh;
-    color: #121212;
-    font-size: 0.75rem;
+    width: 4vw;
+    padding-top: 2vh;
   }
   
-  .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    color: #121212;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
-  }
   
