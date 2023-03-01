@@ -19,24 +19,33 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
 
 <!-- Navagation -->
-<nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid nav">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link"><a href="index.html">home</a>
-          <a class="nav-link"><a href="films.html">collection</a>
-          <a class="nav-link"><a href="contact.html">contact</a>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid nav-holder">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#title">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#change">change</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#featured-section">projection</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#supporting">supporting</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">contact</a>
+        </li>
+      </ul>
     </div>
-  
- 
+  </div>
 </nav>
 
   
@@ -48,27 +57,24 @@
   </div>
 
   <!-- Unique Value -->
-  <div class="container-fluid section">
-    <div class="row">
-    
-      <div class="col" style="position: relative;">
-        <img class="z-1 money-left" src="imgs/ctn-money.png">
-        <h3 class="z-1 money-title-left">majority black benifits</h3>
-        <p class="z-1 money-text-left">
+  <div class="container-fluid section" id="change">
+    <div class="col section-header">
+      <h2 > our two cents</h2>
+      <p> "change action thought/opinions" </p>
+    </div>
+    <div class="row"> 
+      <div class="col cents-left" style="position: relative;">
+        <img class="money-left" src="imgs/ctn-money.png">
+        <h3 class="money-title-left">1. majority black benifits</h3>
+        <p class="money-text-left">
           this unique & dualistic
           experience shaped a 
           default perspective of 
         </p>
       </div>
-
-      <div class="col section-header">
-        <h2 > our two cents</h2>
-        <p> "change action thought/opinions" </p>
-      </div>
-        
-      <div class="col" style="position: relative;">
+      <div class="col cents-right" style="position: relative;">
         <img class="z-1 money-left" src="imgs/ctn-money.png">
-        <h3 class="z-1 money-title-left">majority black benifits</h3>
+        <h3 class="z-1 money-title-left">2. multi-year commitment</h3>
         <p class="z-1 money-text-left">
           this unique & dualistic
           experience shaped a 
@@ -104,28 +110,65 @@
   
 
   <!-- Target Market and Oppurtunities-->
-  <div class="container-fluid assist-section">
+  <div class="container-fluid assist-section" id="supporting">
       <div class="section-header">
         <h2 > dropping dimes</h2>
         <p> "who we assist" </p>
       </div>
-      <div class="row assist-content">
-          <h3 class="assist-sub-title">institutions</h3>
-          <p class="assist-content-text">
-            This unique & dualistic
-              experience shaped a 
-              default perspective of 
-          </p>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row assist-content">
+            <div class="containter-fluid">
+              <h3 class="assist-sub-title-left">future leaders</h3>
+              <p class="assist-content-text-left">
+                this unique & dualistic
+                  experience shaped a 
+                  default perspective of 
+                  this unique & dualistic
+                    experience shaped a 
+                    default perspective of 
+              </p>
+            </div>
+             
+          </div>
+          
+          <div class="row assist-content">
+            <div class="container-fluid">
+              <h3 class="assist-sub-title-left">organizations</h3>
+                <p class="assist-content-text-left">
+                  this unique & dualistic
+                    experience shaped a 
+                    default perspective of 
+                    this unique & dualistic
+                    experience shaped a 
+                    default perspective of 
+                </p>
+            </div>
+          </div>
+          <div class="row assist-content">
+            <div class="container-fluid">
+              <h3 class="assist-sub-title-left">institutions</h3>
+                <p class="assist-content-text-left">
+                  this unique & dualistic
+                    experience shaped a 
+                    default perspective of 
+                    this unique & dualistic
+                    experience shaped a 
+                    default perspective of 
+                </p>
+            </div>
+          </div> 
+        </div>
+        <div class="col">
+          <img class="assist-photo" src="imgs/leykey.png">
+        </div>     
       </div>
       
-      <div class="row assist-content">
-          <h3 class="assist-sub-title">organizations</h3>
-          <p class="assist-content-text">
-            This unique & dualistic
-              experience shaped a 
-              default perspective of 
-          </p>
-      </div>   
+  </div>
+
+  <!-- Contact -->
+  <div class="container-fluid section" id="contact">
+    <h2> coming soon</h2>
   </div>
   
 

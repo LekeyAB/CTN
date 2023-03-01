@@ -32,46 +32,30 @@ body {
   
   
   a{
-    color: #ffcc33;
+    color: #f7f7f7;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     list-style: none;
   }
   
   a:hover {
-    color: #f7f7f7;
+    color: #ffcc33;
   }
   
-  .navbar{
+  nav{
     background-color: black;
-    margin: 0%;
-    padding: 0;
   }
+ .navbar{
+  background-color: black;
+ }
+ .nav-link{
+  color: #f7f7f7;
+ }
+ .nav-link:hover{
+  color: #Ffcc33;
+ }
   
-  .navbar-nav{
-    list-style: none;
-    text-decoration: none;
-    margin-left: 77vw;
-    padding: .55vh 0;
-
-  }
-  .nav{
-    background-color: black;
-  }
-  .nav-link{
-    margin: 0 .6vw;
-
-  }
-  #icon{
-    width: 45px;
-  }
-  .coin-container{
-    height: 6vh;
-  }
-  .coin{
-    background-image: url("imgs/collage.png");
-  }
-    
+  
 
   #title{
     background-size: 100%;
@@ -100,14 +84,13 @@ body {
   .section{
     width: 100vw;
     height: 82vh;
-    padding: 2vh .5vw 0 .5vw;
-    text-align: center;
+    padding: 10vh 0 0 0 ;
     margin-top: 5vh;
     margin-bottom: 2.5vh;
   }
   .assist-section{
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     padding: 2vh .5vw 0 .5vw;
     text-align: center;
     margin-top: 5vh;
@@ -125,10 +108,10 @@ body {
 
   }
   .money-left{
-    width: 17vw;
+    width: 10vw;
   }
   .money-right{
-    width: 17vw;
+    width: 10vw;
   }
   .money-title-left{
     color: #ffcc33;
@@ -145,8 +128,8 @@ body {
     font-size: 0.9rem;
     text-shadow: 0 0 10px black;
     font-weight: bolder;
-    width: 10vw;
     height: 10vh;
+    padding-top: 2vh;
   }
   .money-text-right{
     color: white;
@@ -155,6 +138,12 @@ body {
     font-weight: bolder;
     width: 10vw;
     height: 10vh;
+  }
+  .cents-left{
+    margin-left: 12vw;
+  }
+  .cents-right{
+    margin-right: 12vw;
   }
   .sub-title{
     color: #ffcc33;
@@ -175,6 +164,7 @@ body {
     text-align: center;
   }
   #featured-section{
+    padding: 15vh 0 0 0 ;
     margin-top: 15vh;
     margin-bottom: 10vh;
   }
@@ -206,22 +196,33 @@ body {
     
   }
   .assist-content{
-
+    height: 15vh;
+    margin-bottom: 5vh;
   }
-  .assist-sub-title{
+  .assist-content-container{
+    text-align: right;
+    padding-right: 15vw;
+    width: 50vw;
+  }
+  .assist-sub-title-left{
+    text-align: left;
+    padding-left: 15vw;
+  }
+  .assist-sub-title-right{
+    text-align: right;
+  }
+  .assist-content-text-left{
+    text-align: left;
+    padding-left: 15vw;
+    width: 60vw;
+  }
+  .assist-content-text-right{
     text-align: left;
   }
-  .assist-content-text{
-
+  .assist-photo{
+    width: 20vw;
   }
   
-  #contact{
-    height: 100vh;
-    background-color: #Ffcc33;
-    color: #121212;
-    padding: 10vh 2vw 0 0;
-    margin-top: 0;
-  }
   #contact-header{
     color: #121212;
     background-color: none;
