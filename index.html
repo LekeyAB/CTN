@@ -90,13 +90,12 @@
   <!-- Featured -->
   <div class="container-fluid text-center" id="featured-section">
         
-          <h2 id="featured-header"> feature</h2>
-          <h3>"how we came to be and who we're becoming"</h3>
-        
+        <h2 id="featured-header"> feature</h2>
+        <h3>"how we came to be and who we're becoming"</h3>
       
-        <video class="film" controls> 
-          <source src="films/video-test-bw.mp4" type="video/mp4">
-        </video>
+        <iframe width="420" height="415"
+          src="https://www.youtube.com/embed?v=MxO2SroEHG4controls=0">
+        </iframe>
 
         <!-- <div class="containter-fluid section-header mission-section">
       <h2 class="mission-title"> intention </h2>
@@ -116,6 +115,9 @@
         <p> "who we assist" </p>
       </div>
       <div class="row">
+        <div class="col">
+          <img class="assist-photo" src="imgs/leykey.png">
+        </div>    
         <div class="col-lg-8">
           <div class="row assist-content">
             <div class="containter-fluid">
@@ -158,18 +160,76 @@
                 </p>
             </div>
           </div> 
-        </div>
-        <div class="col">
-          <img class="assist-photo" src="imgs/leykey.png">
-        </div>     
+        </div> 
       </div>
       
   </div>
 
   <!-- Contact -->
-  <div class="container-fluid section" id="contact">
-    <h2> coming soon</h2>
+  <div class="container-fluid section contact-section" id="contact">
+    <div class="contact-section-header">
+      <h2> our crew</h2>
+      <p> "legends in the making" </p>
+    </div>
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <div class="row">
+            <div class="col-lg-6 bio-content">
+              <h2 class="testimonial-name"> terrence taylor</h2>
+              <h2 class="testimonial-title">founder. producer. mentor.</h2>
+              <p class="testimonial-text">Terrence Taylor is an African Nova Scotian artist & entrepreneur who grew up in Las Vegas, Nevada. Since 2017, Terrence has combined storytelling elements from hip hop, Hollywood, radio and the Internet 
+                into a style coined Innovative Narrative, selling nearly $1,000,000 in video and podcast content to corporate, grassroots and government clients across Canada.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img class="bio-photo" src="imgs/leykey.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="row">
+            <div class="col-lg-6 bio-content">
+              <h2 class="testimonial-name"> leykey beals</h2>
+              <h2 class="testimonial-title">developer. marketing.</h2>
+              <p class="testimonial-text">Terrence Taylor is an African Nova Scotian artist & entrepreneur who grew up in Las Vegas, Nevada. Since 2017, Terrence has combined storytelling elements from hip hop, Hollywood, radio and the Internet 
+                into a style coined Innovative Narrative, selling nearly $1,000,000 in video and podcast content to corporate, grassroots and government clients across Canada.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img class="bio-photo" src="imgs/leykey.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="row">
+            <div class="col-lg-6 bio-content">
+              <h2 class="testimonial-name"> kuba</h2>
+              <h2 class="testimonial-title">photograper</h2>
+              <p class="testimonial-text">Terrence Taylor is an African Nova Scotian artist & entrepreneur who grew up in Las Vegas, Nevada. Since 2017, Terrence has combined storytelling elements from hip hop, Hollywood, radio and the Internet 
+                into a style coined Innovative Narrative, selling nearly $1,000,000 in video and podcast content to corporate, grassroots and government clients across Canada.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img class="bio-photo" src="imgs/leykey.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
   </div>
+  
   
 
   <!-- Footer-->
