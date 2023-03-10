@@ -227,9 +227,8 @@ body {
     text-align: left;
   }
   .assist-photo{
-    width: 22vw;
-    border-radius: 50%;
-    transform: translateX(80%);
+    height: 30vh;
+    transform: translateX(50%) translateY(50%);
   }
 
   
@@ -295,9 +294,8 @@ body {
   }
   .bio-photo {
     padding-top: 3vh;
-    width: 25vh;
-    border-radius: 50%;
-    transform: translateX(-90%);
+    width: 35vh;
+    transform: translateX(-50%) translateY(25%);
   }
   .footer{
     background-color: black;
