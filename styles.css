@@ -120,6 +120,9 @@ body {
   .money-right{
     width: 10vw;
   }
+  .number-heading{
+    padding-left: 2vw;
+  }
   .money-title-left{
     color: #ffcc33;
     text-shadow: 1px 1px 10px black;
@@ -130,13 +133,12 @@ body {
     text-shadow: 1px 1px 10px black;
     font-weight: bolder;
   }
-  .money-text-left{
+  .money-text{
     color: white;
     font-size: 0.9rem;
     text-shadow: 0 0 10px black;
     font-weight: bolder;
-    height: 10vh;
-    padding-top: 2vh;
+    padding: 3% 25% 0 25%;
   }
   .money-text-right{
     color: white;
@@ -146,11 +148,27 @@ body {
     width: 10vw;
     height: 10vh;
   }
-  .cents-left{
-    margin-left: 12vw;
+  .card{
+    background-color: black;
   }
-  .cents-right{
-    margin-right: 12vw;
+  .cent-1{
+    font-family: 'Amatic_SC';
+    padding-left: 40%;
+  }
+  .number-heading{
+    position: absolute;
+    transform: translateX(-30%) translateY(-10%);
+    font-family: 'Dancing Script';
+    font-size: 2.5rem;
+  }
+  .number-heading-2{
+    padding-left: 20%;
+  }
+  .card-container{
+    margin: 0 7% 0 7%;
+  }
+  .card-holder{
+    margin: 0 5% 0 5%;
   }
   .sub-title{
     color: #ffcc33;
@@ -199,6 +217,7 @@ body {
   }
   .film{
     width: 60vw;
+    height: 60vh;
     margin-top: 1.5vh;
     
   }
@@ -238,7 +257,7 @@ body {
     margin: 0;
   }
   .contact-section{
-    height: 100vh;
+    height: 88vh;
   }
   .contact-header{
     color: black;
@@ -295,7 +314,7 @@ body {
   .bio-photo {
     padding-top: 3vh;
     width: 35vh;
-    transform: translateX(-50%) translateY(25%);
+    transform: translateX(-50%) translateY(29%);
   }
   .footer{
     background-color: black;
@@ -310,9 +329,20 @@ body {
   .footer-link:hover {
     color: #121212;
   }
-  .copyright {
-    width: 4vw;
-    padding-top: 2vh;
+  .copyright-container{
+    text-align: left;
+    padding: 0 1vw 0 1vw;
   }
-  
+  .copyright {
+    height: 3.1vw;
+  }
+  .social-container{
+    text-align: right;
+  }
+  .social{
+    margin: 2%;
+  }
+  .btn{
+    border-radius: 50%;
+  }
   

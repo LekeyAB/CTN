@@ -38,7 +38,7 @@
           <a class="nav-link" href="#change">change</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#featured-section">projection</a>
+          <a class="nav-link" href="#featured-section">future</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#supporting">supporting</a>
@@ -65,24 +65,42 @@
       <h2 > our two cents</h2>
       <p> "change action thought/opinions" </p>
     </div>
-    <div class="row"> 
-      <div class="col cents-left" style="position: relative;">
-        <img class="money-left" src="imgs/ctn-money.png">
-        <h3 class="money-title-left">1. majority black benifits</h3>
-        <p class="money-text-left">
-          this unique & dualistic
-          experience shaped a 
-          default perspective of 
-        </p>
+    <div class="row card-container"> 
+      <div class="col card-holder">
+        <div class="card bg-transparent text-bg-dark text-center">
+          <div>
+            <img src="imgs/ctn-money.png" class="money-left" alt="...">
+          </div>
+          <div class="card-body">
+            <div class="card-title row">
+              <h3 class="number-heading">1.</h3>
+              <h3 class="number-heading-2">majority black benifits</h3>
+            </div>
+            <p class="money-text">
+              this unique & dualistic
+              experience shaped a 
+              default perspective of 
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col cents-right" style="position: relative;">
-        <img class="z-1 money-left" src="imgs/ctn-money.png">
-        <h3 class="z-1 money-title-left">2. multi-year commitment</h3>
-        <p class="z-1 money-text-left">
-          this unique & dualistic
-          experience shaped a 
-          default perspective of 
-        </p>
+      <div class="col card-holder">
+        <div class="card bg-transparent text-bg-dark text-center">
+          <div>
+            <img src="imgs/ctn-money.png" class="money-left" alt="...">
+          </div>
+          <div class="card-body">
+            <div class="card-title row">
+              <h3 class="number-heading">2.</h3>
+              <h3 class="number-heading-2">multi-year commitment</h3>
+            </div>
+            <p class="money-text">
+              this unique & dualistic
+              experience shaped a 
+              default perspective of 
+            </p>
+          </div>
+        </div>
       </div>
     </div>    
   </div>
@@ -93,11 +111,11 @@
   <!-- Featured -->
   <div class="container-fluid text-center" id="featured-section">
         
-        <h2 id="featured-header"> feature</h2>
+        <h2 id="featured-header"> future </h2>
         <h3>"how we came to be and who we're becoming"</h3>
       
-        <iframe width="420" height="415"
-          src="https://www.youtube.com/embed?v=MxO2SroEHG4controls=0">
+        <iframe class="film" src="https://www.youtube.com/embed/MxO2SroEHG4" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe>
 
         <!-- <div class="containter-fluid section-header mission-section">
@@ -236,9 +254,17 @@
 
   <!-- Footer-->
   <div class="container-fluid footer">
-    <img class="copyright" src="imgs/CTN_patch.png">
-    <i class="fa-brands fa-youtube"></i>
-    <i class="fa-solid fa-envelope"></i>
+    <div class="row">
+      <div class="col copyright-container">
+        <img class="copyright" src="imgs/CTN_main_yellow.png">
+      </div>
+      <div class="col social-container">
+        <button type="button" class="social btn btn-outline-warning"><i class="fa-brands fa-patreon"></i></button>
+        <button type="button" class="social btn btn-outline-warning"><i class="fa-brands fa-youtube"></i></button>
+        <button type="button" class="social btn btn-outline-warning"><i class="fa-solid fa-envelope"></i></button>
+      </div>
+    </div>
+    
   </div>
 </body>
 
