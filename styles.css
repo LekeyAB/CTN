@@ -130,7 +130,7 @@ color: darkslategrey;
 
 /* About */
 .unique-header{
-  padding-left: 25%;
+  padding-left: 0%;
 }
 .unique-content{
   padding: 5% 0 0 0;
@@ -223,7 +223,6 @@ color: darkslategrey;
   height: 100vh;
   padding-top: 8vh;
   padding-bottom: 20vh;
-  padding-left: 7vw;
 }
 .impact-section-heading{
   width: 30vw;
