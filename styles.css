@@ -1,6 +1,6 @@
 /* General */
 body {
-  background-color: yellow;
+  background-color: #f5e046;
   color: black;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -10,10 +10,10 @@ body {
 
   background-image: linear-gradient(90deg,
     transparent 79px,
-    red 79px,
-    red 81px,
+    #cc5552 79px,
+    #cc5552 81px,
     transparent 81px),
-    linear-gradient(blue .1em,
+    linear-gradient(#2087ba .1em,
       transparent .1em);
   background-size: 100% 2em;
 }
@@ -85,18 +85,19 @@ a:hover {
 
 /* Navagation */
 nav{
-  background-color: yellow;
+  background-color: #f5e046;
 }
 .navbar{
   background-image: linear-gradient(90deg,
     transparent 79px,
-    red 79px,
-    red 81px,
+    #cc5552 79px,
+    #cc5552 81px,
     transparent 81px);
   background-size: 100% 2em;
   height: 3.5vw;
 }
 .navbar-brand-img{
+  transform: translateY(10%) translateX(20%);
   width: 3vw;
 }
 #navbarNavDropdown{
@@ -118,104 +119,99 @@ color: darkslategrey;
 /* title */
 #title{
   padding: 15vh 0 0 0;
+  height: 95vh;
 }
 .title-logo{
   width: 35vw;
-  padding: 1vh 0 0 0;
+  transform: translateY(6%) translateX(15%);
 }
 .title-text{
-  width: 40vw;
+  width: 28vw;
+  transform: rotate(90deg) translateY(10%) translateX(-8%);
 }
 
 
-/* About */
-.unique-header{
-  padding-left: 0%;
+/* Unique */
+#unique{
+  height: 95vh;
 }
-.unique-content{
-  padding: 5% 0 0 0;
+#unique-header{
+  padding-left: 25%;
+  padding-bottom: 3%;
 }
-.requirements{
-  
+#unique-heading{
+  width: 35vw;
 }
-.unique-photo-left{
-  transform: rotate(-7deg) translateY(0%) translateX(60%);
+#unique-sub-heading{
+  width: 25vw;
+  transform: translateY(0%) translateX(-7%);
+}
+#unique-content{
+
+}
+#policy{
+
+}
+.unique-photo{
   width: 20vw;
-
 }
-.unique-photo-right{
-  transform: rotate(5deg) translateY(0%) translateX(-60%);
-  width: 20vw;
+#majority-black-benefits{
+  transform: rotate(-7deg) translateY(0%) translateX(45%);
+  width: 22vw;
 }
-.money{
-  width: 10vw;
-  position: absolute;
-  z-index: +1;
-}
-.num1{
-  width: 5vw;
-  transform: translateY(0%) translateX(150%);
-}
-.num2{
-  width: 7vw;
-  transform: translateY(0%) translateX(150%);
-}
-.requirement-heading1{
-  width: 30vw;
-  transform: translateY(-10%) translateX(25%);
-}
-.requirement-heading2{
-  width: 30vw;
-  transform: translateY(-10%) translateX(35%);
+#mulityear-commitment{
+  transform: rotate(5deg) translateY(3%) translateX(-45%);
+  width: 27vw;
 }
 
 /* Mission */
 #mission{
-  padding: 20vh 0 0 0;
+  padding-top: 20vh;
 }
-#mission-header{
-  color: #f7f7f7;
-  text-decoration: none;
-  list-style: none;
-  
+#thefirst{
+  width: 23vw;
+  transform: translateY(-20%) translateX(50%);
 }
-.mission-text{
-  padding: 2vh 0 2vh 0;
+#partnership{
+  transform: translateY(10%) translateX(23%);
 }
-#first-line{
-  width: 40vw;
-  transform: translateY(0%) translateX(25%);
+#agency{
+  width: 15vw;
 }
-#second-line{
-  width: 18vw;
-  transform: translateY(0%) translateX(100%);
+#to{
+  width: 5vw;
+  transform: translateY(-40%) translateX(0%);
 }
-#third-line{
-  width: 40vw;
-  transform: translateY(0%) translateX(75%);
+#create{
+  width: 15vw;
+  transform: translateY(-50%) translateX(-90%);
 }
-#fourth-line{
-  width: 40vw;
-  transform: translateY(0%) translateX(100%);
+#Iphone-containter{
+
 }
-.mission-photo{
-  transform: rotate(4deg) translateY(-200%) translateX(70%);
+#Iphone-photo{
+  transform: rotate(-87deg) translateY(-10%) translateX(30%);
   position: absolute;
-  z-index: +1;
-  width: 17vw;
+  z-index: -1;
+  width: 30vw;
 }
-
-
-
-.video{
-  border: black;
-  border-style: solid;
-  border-width: 1.2vw;
+#infrastructre-video{
+  transform: rotate(3deg) translateY(23%) translateX(-19%);
+  height: 15vw;
+  width: 32.5vw;
+  border-radius: 5%;
 }
-.film{
-  width: 60vw;
-  height: 60vh;
-  
+#sustainable{
+  width: 25vw;
+  transform: translateY(0%) translateX(10%);
+}
+#black{
+  width: 15vw;
+  transform: translateY(-15%) translateX(-40%);
+}
+#infrastructure{
+  width: 30vw;
+  transform: translateY(0%) translateX(-45%);
 }
 
 /* Impact */
@@ -224,121 +220,148 @@ color: darkslategrey;
   padding-top: 8vh;
   padding-bottom: 20vh;
 }
-.impact-section-heading{
-  width: 30vw;
-  transform: translateY(0%) translateX(100%);
+#impact-header{
 }
-.impact-container{
-  padding: 2vh;
+#impact-heading{
+  width: 40vw;
+  transform: translateY(0%) translateX(0%);
 }
-.impact-sub-heading{
-  width: 20vw;
-  transform: translateY(0%) translateX(175%);
+#impact-container{
+  padding-top: 3vh;
 }
 .impact-photo{
-  transform: rotate(-4deg) translateY(10%) translateX(5%);
-  width: 27vw;
+  transform: rotate(-4deg) translateY(0%) translateX(10%);
+  width: 30vw;
 }
 .impact-steps{
   height: 22vh;
 }
-.impact-heading{
-  width: 8vw;
+#cultivate-step{
+  
 }
-.grow-impact-heading{
-  width: 5vw;
+#cultivate-heading{
+  width: 30vh;
+  transform: translateY(-10%) translateX(0%);
 }
-.impact-text{
-  width: 25vw;
+#cultivate-text{
+  width: 40vh;
+  transform: translateY(-9%) translateX(0%);
+}
+#employ-step{
+  
+}
+#employ-heading{
+  width: 30vh;
+  transform: translateY(0%) translateX(-20%);
+}
+#employ-text{
+  transform: translateY(-25%) translateX(-20%);
+  width: 35vh;
+}
+#build-step{
+  
+}
+#build-heading{
+  width: 25vh;
+  transform: translateY(50%) translateX(0%);
+}
+#build-text{
+  width: 42vh;
+  transform: translateY(50%) translateX(0%);
+}
+#invest-step{
+  
+}
+#invest-heading{
+  transform: translateY(60%) translateX(-20%);
+  width: 30vh;
+}
+#invest-text{
+  transform: translateY(45%) translateX(-20%);
+  width: 35vh;
 }
 
+
 /* Contact */
+#contact{
+  padding-bottom: 0;
+}
+#contact-header{
+  padding-left: 40%;
+}
 .contact-heading{
   width: 20vw;
-  transform: translateY(20%) translateX(200%);
+  transform: translateY(20%) translateX(0%);
 }
 .contact-sub-heading{
   width: 15vw;
-  transform: translateY(30%) translateX(285%);
+  transform: translateY(50%) translateX(12%);
 }
-.bio-content{
-  text-align: right;
-  height: 40vh;
-  padding: 8vh 0 0 0;
-}
-.bio-section{
-  text-align: left;
-}
-.bio{
-  font-size: 0.7rem;
+.polaroid-container{
+  padding-top: 5vh;
 }
 .bio-photo-terrence{
   transform: rotate(4deg);
-  padding-top: 3vh;
-  width: 21vh;
+  width: 25vh;
 }
 .bio-photo-leykey{
   transform: rotate(-7deg);
-  padding-top: 3vh;
-  width: 21vh;
+  width: 25vh;
 }
 .bio-photo-kekebeats{
   transform: rotate(5deg);
-  padding-top: 3vh;
-  width: 21vh;
+  width: 25vh;
 }
 .bio-photo-armani{
-  transform: rotate(-2deg);
-  padding-top: 3vh;
-  width: 21vh;
+  transform: rotate(-2deg) translateY(0%) translateX(50%);
+  width: 25vh;
 }
 .bio-photo-keandre{
-  transform: rotate(-8deg);
-  padding-top: 3vh;
-  width: 21vh;
+  transform: rotate(-3deg);
+  padding-top: 1vh;
+  width: 25vh;
 }
 .bio-photo-kardeisha{
   transform: rotate(+4deg);
-  padding-top: 3vh;
-  width: 21vh;
+  padding-top: 1vh;
+  width: 25vh;
 }
 .bio-photo-andrew{
   transform: rotate(-1deg);
-  padding-top: 3vh;
-  width: 21vh;
+  width: 25vh;
 }
 .bio-photo-aselis{
-  transform: rotate(5deg);
-  padding-top: 3vh;
-  width: 21vh;
+  transform: rotate(-5deg) translateY(0%) translateX(-50%);
+  padding-top: 1vh;
+  width: 25vh;
 }
 
 
 /* Footer */
-
-.footer{
-  background-image: linear-gradient(90deg,
-    transparent 79px,
-    red 79px,
-    red 81px,
-    transparent 81px);
-  background-size: 100% 2em;
-  height: 5vh;
-  padding: 0;
-  margin: 0;
-}
-.footer-brand-img{
-  width: 4.5vw;
-}
-.footer-link{
-  color: black;
-}
-.footer-link:hover {
-  color: #121212;
-}
-.footer-logo{
-  height: 2.1vw;
-}
-.social-container{
-  text-align: right;
-}
+    .footer{
+      background-image: linear-gradient(90deg,
+        transparent 79px,
+        #cc5552 79px,
+        #cc5552 81px,
+        transparent 81px);
+      background-size: 100% 2em;
+      height: 2vh;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-brand-img{
+      width: 4.5vw;
+      transform: translateY(-10%) translateX(-3%);
+    }
+    .footer-link{
+      color: black;
+    }
+    .footer-link:hover {
+      color: #121212;
+    }
+    .footer-logo{
+      height: 2.1vw;
+    }
+    .social-container{
+      text-align: right;
+    }
